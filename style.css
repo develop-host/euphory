@@ -34,11 +34,14 @@ h1{
 
 .menu li a{
     transition:all .3s ease;
+    font-family:'Montserrat', sans-serif;
 }
 .menu a:hover{
     color:#39f;
     text-decoration:underline;
     transition:all .3s ease;
+    font-family:'Montserrat', sans-serif;
+    
 }
 #buttonlogin{
     padding: 9px 25px;
@@ -67,4 +70,3 @@ h1{
     border-radius: 50px;
     text-align: center;
 }
-body{}

@@ -1,0 +1,21 @@
+#nav{
+    height: 110px;
+    background-color: #333333;
+    width: 100%;
+    border-radius: 50px;
+}
+body{
+    background-color: #242424;
+    text-align: center;
+    
+}
+#selection{
+    background-color: #333333;
+    height: 700px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+}
