@@ -70,3 +70,11 @@ h1{
     border-radius: 50px;
     text-align: center;
 }
+
+#title{
+    text-align: center;
+    font-size: large
+}
+#titolo{
+    font-size:10px;
+}
