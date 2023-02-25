@@ -1,24 +1,30 @@
 * {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
-body{
-    background:#242424;
+
+body {
+    background: #242424;
 }
-.menu,a,button{
-    font-family:'Montserrat', sans-serif;
+
+.menu,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 17px;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:30px 10%;
+    padding: 30px 10%;
 }
+
 .menu {
     list-style: none;
 }
@@ -27,55 +33,67 @@ header {
     display: inline-block;
     padding: 0 20px;
 }
-h1{
-    color:#fff;
-    font-family:'Montserrat', sans-serif;
+
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.menu li a{
-    transition:all .3s ease;
-    font-family:'Montserrat', sans-serif;
+.menu li a {
+    transition: all .3s ease;
+    font-family: 'Montserrat', sans-serif;
 }
-.menu a:hover{
-    color:#39f;
-    text-decoration:underline;
-    transition:all .3s ease;
-    font-family:'Montserrat', sans-serif;
-    
+
+.menu a:hover {
+    color: #39f;
+    text-decoration: underline;
+    transition: all .3s ease;
+    font-family: 'Montserrat', sans-serif;
+
 }
-#buttonlogin{
+
+#buttonlogin {
     padding: 9px 25px;
     background: #0d94a6;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition:all .3s ease;
+    transition: all .3s ease;
 }
 
-#buttonlogin:hover{
-    background:#39f;
+#buttonlogin:hover {
+    background: #39f;
 }
-#navbar{
+
+#navbar {
     background-color: #333333;
     border-radius: 50px;
 }
-#selection{
+
+#selection {
     height: 700px;
     background-color: #333333;
     border-radius: 50px;
 }
-#footer{
+
+#footer {
     height: 300px;
     background-color: #333333;
     border-radius: 50px;
     text-align: center;
 }
 
-#title{
+#title {
     text-align: center;
     font-size: large
 }
-#titolo{
-    font-size:30px;
+
+#titolo {
+    font-size: 30px;
+
+}
+.img-main{
+    width: 200px;
+    border-radius: 100%;
     
 }

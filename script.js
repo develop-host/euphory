@@ -1,6 +1,6 @@
 console.log('Sito online');
 
- var titolo = ("cos'è euphory");
+var titolo = ("cos'è euphory");
 
 let pageTitle = document.title;
 
