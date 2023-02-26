@@ -12,3 +12,5 @@ window.addEventListener("focus", () => {
 })
 let currentURL = window.location.href;
 console.log(currentURL)
+
+let spam = ('spam')
