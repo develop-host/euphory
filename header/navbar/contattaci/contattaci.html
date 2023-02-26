@@ -7,6 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>contattaci su europh</title>
+    <script src="script.js"></script>
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/cmS2l3YMgRgya3qy/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("messaggio mandato :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
 </head>
 
 <body>
@@ -16,7 +36,28 @@
         </h1>
     </div><br>
     <div id="selection">
-
+        <div class="container">
+            <form id="myForm">
+                <h1 class="title">contattaci</h1><br>
+                <div class="form-group-uno">
+                    <label>full_name</label>
+                    <input name="full_name" required/>
+                </div>
+                <br/>
+                <div class="form-group-uno">
+                    <label>email</label>
+                    <input name="email" required />
+                </div>
+                <br/>
+                <div class="form-group-uno">
+                    <label>message</label>
+                    <input name="message" required />
+                </div>
+                <br/><br/>
+                <button onclick='SubForm()'>Submit</button>
+            </form>
+            
+        </div>
     </div>
 </body>
 
