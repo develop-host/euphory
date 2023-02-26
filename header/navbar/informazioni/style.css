@@ -36,3 +36,15 @@ a{
 .text-selection .apertura-server{
     font-size: 25px;
 }
+
+.text-selection .text-apertura a{
+    color: white;
+}
+
+.text-selection .creatore{
+    font-size: 25px;
+}
+
+.text-selection .text-creatore{
+    color: white;
+}
