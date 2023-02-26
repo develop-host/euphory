@@ -33,3 +33,6 @@ a{
     display: flex;
     flex-direction: column;
 }
+.text-selection .apertura-server{
+    font-size: 25px;
+}
